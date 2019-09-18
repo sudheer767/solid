@@ -271,32 +271,31 @@ $
 	Sweety
 
 # File marks:
-'0  1  31  ~/file1
-'1  8  0  /
-'3  8  0  ~/dir
-'4  8  0  ~/file1
-'5  6  0  ~/file2
-'6  1  0  ~/file
-'7  1  0  ~/file3
-'8  1  0  ~/dir2
-'9  6  0  ~/dir
+'0  6  5  ~/file2
+'1  1  31  ~/file1
+'2  8  0  /
+'4  8  0  ~/dir
+'5  8  0  ~/file1
+'6  11  0  ~/file2
+'7  1  0  ~/file
+'8  1  0  ~/file3
+'9  1  0  ~/dir2
 
 # Jumplist (newest first):
+-'  6  5  ~/file2
+-'  1  0  ~/file2
 -'  1  31  ~/file1
 -'  8  0  /
 -'  8  0  ~/dir
 -'  1  0  ~/dir
 -'  8  0  ~/file1
--'  6  0  ~/file2
--'  1  0  ~/file2
+-'  11  0  ~/file2
 -'  1  0  ~/file
 -'  1  0  ~/file3
 -'  1  0  ~/file3
 -'  1  0  ~/file
 -'  1  0  ~/file3
 -'  1  0  ~/file3
--'  6  0  ~/file2
--'  1  0  ~/file2
 -'  1  0  ~/file
 -'  1  0  ~/file3
 -'  7  0  ~/file1
@@ -304,16 +303,12 @@ $
 -'  1  0  ~/file
 -'  1  0  ~/file3
 -'  1  0  ~/file3
--'  6  0  ~/file2
--'  1  0  ~/file2
 -'  1  0  ~/file
 -'  1  0  ~/file3
 -'  1  0  ~/file3
 -'  1  0  ~/file
 -'  1  0  ~/file3
 -'  1  0  ~/file3
--'  6  0  ~/file2
--'  1  0  ~/file2
 -'  1  0  ~/file
 -'  1  0  ~/file3
 -'  1  0  ~/file3
@@ -324,13 +319,11 @@ $
 -'  1  0  ~/file
 -'  10  41  ~/file3
 -'  1  0  ~/file3
--'  5  24  ~/file2
--'  1  0  ~/file2
+-'  10  24  ~/file2
 -'  5  23  ~/dir
 -'  1  0  ~/dir
 -'  1  0  ~/dir2
 -'  6  0  ~/dir
--'  6  0  ~/file2
 -'  8  0  ~/dir
 -'  5  23  ~/dir
 -'  1  0  ~/dir
@@ -338,20 +331,14 @@ $
 -'  5  23  ~/dir
 -'  1  0  ~/dir
 -'  6  0  ~/dir
--'  5  24  ~/file2
--'  1  0  ~/file2
 -'  5  23  ~/dir
 -'  1  0  ~/dir
 -'  6  0  ~/dir
--'  6  0  ~/file2
 -'  10  41  ~/file3
 -'  1  0  ~/file3
--'  5  24  ~/file2
--'  1  0  ~/file2
 -'  5  23  ~/dir
 -'  1  0  ~/dir
 -'  6  0  ~/dir
--'  6  0  ~/file2
 -'  8  0  ~/dir
 -'  5  23  ~/dir
 -'  1  0  ~/dir
@@ -360,20 +347,31 @@ $
 -'  1  0  ~/dir
 -'  10  41  ~/file3
 -'  1  0  ~/file3
--'  5  24  ~/file2
--'  1  0  ~/file2
 -'  5  23  ~/dir
 -'  1  0  ~/dir
 -'  6  0  ~/dir
--'  6  0  ~/file2
 -'  8  0  /
 -'  8  0  ~/dir
 -'  1  0  ~/dir
--'  6  0  ~/file2
--'  1  0  ~/file2
 -'  1  0  ~/file
+-'  1  31  ~/file1
+-'  8  0  /
+-'  8  0  ~/dir
+-'  1  0  ~/dir
+-'  8  0  ~/file1
 
 # History of marks within files (newest to oldest):
+
+> ~/file2
+	"	6	5
+	^	6	6
+	.	6	5
+	+	1	24
+	+	7	24
+	+	8	25
+	+	9	24
+	+	10	24
+	+	6	5
 
 > ~/file1
 	"	1	31
@@ -407,16 +405,6 @@ $
 	+	8	23
 	+	9	24
 	+	10	42
-
-> ~/file2
-	"	5	24
-	^	5	25
-	.	5	24
-	+	1	24
-	+	2	24
-	+	3	25
-	+	4	24
-	+	5	24
 
 > ~/dir
 	"	5	23
